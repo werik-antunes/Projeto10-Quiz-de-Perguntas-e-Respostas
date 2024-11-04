@@ -1,0 +1,90 @@
+/* Estilo geral da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Contêiner principal */
+  div {
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    width: 400px;
+    max-width: 90%;
+  }
+  
+  /* Estilo do título */
+  h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  /* Estilo da pergunta */
+  p {
+    font-size: 18px;
+    margin: 10px 0 20px;
+    color: #495057;
+  }
+  
+  /* Lista de opções */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  li:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  li:active {
+    transform: translateY(0);
+  }
+  
+  /* Estilo do botão */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    transform: translateY(0);
+  }
+  
+  /* Estilo do resultado */
+  .resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #495057;
+  }
+  
